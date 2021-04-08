@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+img {
+    height: 200px;
+}
+.why img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bck-grey {
+    background-color: #F9F9F9;
+}
+
+.padding-bottom {
+    padding-bottom: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 70px;
+}
+
+@media all and (max-width: 991px) {
+    .bck-yellow {
+        background-color: #F2F2CD;
+    }
+
+    .bck-white {
+        background-color: white;
+    }
+
+    .padding-bottom {
+        padding-bottom: 0;
+    }
+    
+    .margin-bottom {
+        margin-bottom: 0;
+    }
+
+    img {
+        height: 150px;
+    }
+}
